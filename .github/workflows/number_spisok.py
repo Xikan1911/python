@@ -1,4 +1,4 @@
-number ={
+number = {
     'andrey': 2,
     'jura': 6,
     'victor': 4,
@@ -6,4 +6,4 @@ number ={
     'alex':10,
 }
 for name in number:
-    print(name, number['andrey'])
+    print(name, number[name])
