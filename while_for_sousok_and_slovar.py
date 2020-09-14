@@ -5,10 +5,10 @@ finisjed_sandwichs = []
 while sandwich_orders:
     currect_sandwich = sandwich_orders.pop()
 
-    print(f"I made yuor tina sandwich: {currect_sandwich.title()}")
+    print(f"Я могу приготовить вот такие сендвичи: {currect_sandwich.title()}")
     finisjed_sandwichs.append(currect_sandwich)
 
-print("\nThe finished sandwish :")
+print("\nЭти седвичи готовы :")
 for finisjed_sandwich in finisjed_sandwichs:
     print(finisjed_sandwich.title())
 #7.9
@@ -24,10 +24,10 @@ print(sandwich_orders)
 while sandwich_orders:
     currect_sandwich = sandwich_orders.pop()
 
-    print(f"I made yuor tina sandwich: {currect_sandwich.title()}")
+    print(f"Эти сендвичи я могу приготовить: {currect_sandwich.title()}")
     finisjed_sandwichs.append(currect_sandwich)
 
-print("\nThe finished sandwish :")
+print("\nЭти сендвичи готовы :")
 for finisjed_sandwich in finisjed_sandwichs:
     print(finisjed_sandwich.title())
 
@@ -37,12 +37,12 @@ rests = {}
 polling_active = True
 
 while polling_active:
-    name = input("\nWhat is your name?")
-    rest = input("Where would you like to relax this summer?")
+    name = input("\nКак тебя зовут? ")
+    rest = input("В каком городе ты бы хотел отдохнуть этим летом? ")
     rests[name] = rest
-    repeat = input("would you like to let another person respond? (yes/ no)" )
-    if repeat == 'no':
+    repeat = input("Ты бы хотле продолжить оброс или нет ? (да/ нет)" )
+    if repeat == 'нет':
         polling_active = False
 print("\n--- Pool Results ---")
 for name, rest in rests.items():
-    print(f"{name} would like to climb {rest}.")
+    print(f"{name} ты хотел бы отдохнуть в городе: {rest}.")

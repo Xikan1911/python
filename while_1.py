@@ -1,6 +1,6 @@
 #7.4
-toping = "\nPlease select toping for you pizza"
-toping += "\n(Enter 'quit' when yuo are finished.)"
+toping = "\nПожалуйста, выбирети топинг для совей пиццы"
+toping += "\n(Напишите 'quit'когда ваш выбор будет свделан чтобы закончить .)"
 
 message = ""
 while message != 'quit':
@@ -25,8 +25,8 @@ while mes != 'quit':
 
 #7.6
 
-toping = "\nPlease select toping"
-toping += "\n(Write 'quit' in exit)"
+toping = "\nВыбирети топинг для пиццы"
+toping += "\n(Напишите 'quit'чтобы занкочить )"
 
 active =True
 while active:

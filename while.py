@@ -1,23 +1,22 @@
-car = "Let me see if I can find you a: "
-car += "\nWhat car ? "
-
-name = input(car)
-print("\nYor car is " + name + "!")
+message = input("Какая машина вам нужна ? ")
+print(message)
 
 
-restoran = input("Hello, how much does a person need a table?")
-restoran = int(restoran)
+rest = input("На сколько человек вам нужно забранировать стол? ")
+rest = int(rest)
 
-if restoran >= 8:
-    print("\nTable not yet cats need to wait!")
+if rest >8:
+	print("\nВам надо подождать когда освободиться нужный вам стол! ")
 else:
-    print("\nYour table is ready!")
-
-
-number = input("You number is : ")
+	print("\nВаш стол готов прошу к столу!")
+	
+	
+	
+	
+number = input("Напишите число и я вам сказу кратно оно или нет: ")
 number = int(number)
 
 if number % 10 == 0:
-    print("\nThe number " + str(number) + " is even.")
+	print(f"\nТвое число {number} некратное")
 else:
-    print("\nThe number " + str(number) + " is odd.")
+	print(f"\nТвое число {number} кратное ")
