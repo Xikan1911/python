@@ -1,5 +1,8 @@
-def greet_user():
-    """Выводит простое приветсвие."""
-    print("Hello")
+def describe_pet(animal_type, pet_name):
+    """output info the animal"""
+    print(f"\nI have a {animal_type}.")
+    print(f"My {animal_type}'s name is {pet_name.title()}.")
 
-greet_user()
+describe_pet('harry', 'hamster')
+describe_pet('cat' , 'timon')
+

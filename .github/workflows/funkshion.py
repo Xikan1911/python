@@ -11,3 +11,4 @@ def favorite_book(book):
     print(f"One of my favorite books is Alice in Wonderland {book.title()}!")
 
 favorite_book('Python 3 ')
+favorite_book('html')
