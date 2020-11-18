@@ -1,7 +1,7 @@
 # Python
 
-                                  *IZMAILOV.COMP*
+                            *IZMAILOV.COMP*
 
-                       This is my progres is leaner for python!
-                     --------------------------------------------
-                     Here are all the stages of my Python training
+               This is my progres is leaner for python!
+               --------------------------------------------
+               Here are all the stages of my Python training
