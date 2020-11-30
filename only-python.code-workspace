@@ -5,5 +5,10 @@
 		}
 	],
 	"settings": {
+		"editor.fontSize": 16,
+		"terminal.integrated.fontSize": 14,
+		"terminal.integrated.commandsToSkipShell": [
+			".code"
+		]
 	}
 }
