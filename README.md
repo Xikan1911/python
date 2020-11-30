@@ -6,5 +6,6 @@
            --------------------------------------------
            Here are all the stages of my Python training
 
-Exampel 1:
+Exampel 1: I read a more book and forums.
+Exampel 2: 
 
